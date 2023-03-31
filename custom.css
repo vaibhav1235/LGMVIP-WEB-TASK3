@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+ }
+
+ body{
+    background-image: url('https://th.bing.com/th/id/OIP.B4-SkEfYRLS6wjybhYon3gHaEK?w=281&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7');
+    background-repeat: no-repeat;
+    background-size:100%;
+    display: grid;
+    height: 100vh;
+    place-items: center;
+
+ }
+
+.main{
+    width: 400px;
+    height: 510px;
+    background-image: url('https://th.bing.com/th/id/OIP.icO-3fPINumwRDACDZzzKwHaEo?w=270&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7');
+    position: absolute;
+    border: 5px solid transparent;
+    border-radius: 10px; 
+    box-shadow: 1px 1px 8px gainsboro;
+
+ }
+
+.dt{
+   margin: 10px;
+   text-align: center;
+   color: white;
+  text-shadow: 1px 1px 2px black, 0 0 35px blue, 0 0 5px darkblue;
+   font-size: 40px;
+}
+
+ .main input[type='text'] {
+    width: 90%;
+    background-color: gainsboro;
+    position: relative;
+    height: 80px;
+    top: 5px;
+    text-align: right;
+    padding: 8px 10px;
+    outline: none;
+    font-size: 40px;
+    border: 2px solid black;
+    display: flex;
+    margin: auto;
+    border-radius: 8px;
+    color: black;
+ }
+ .btn input[type='button']{
+    width:90px;
+    padding: 2px;
+    margin: 2px 0px;
+    position: relative;
+    left: 13px;
+    top: 20px;
+    height: 60px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.5s;
+    background-color:gainsboro;
+    border-radius: 25px;
+    color: black;
+ }
+ .btn input[type='button']:hover{
+    background-color: black;
+    color: white ;
+ }
